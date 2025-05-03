@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def criar_usuario(request):
-    return HttpResponse('Você criou um usuário!')
+    return render(request, 'criar_usuario.html')
